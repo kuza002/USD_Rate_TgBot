@@ -3,6 +3,7 @@ from typing import Optional
 import logging
 
 
+
 def get_exchange_rate()-> Optional[float]:
     try:
         response = requests.get('https://www.cbr-xml-daily.ru/daily_json.js')
